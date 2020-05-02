@@ -1,5 +1,5 @@
 # Task1
-
+  Practice backend task for RBC
 ## h2
 h2 jdbc url must be specfied in application.properties
 
