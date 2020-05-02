@@ -78,7 +78,7 @@ public class testController {
 	
 	//get that returns a list of all versions available for a specified appCode
 	@GetMapping("/api/{appCode}/config")
-	public List<Double> getodelJsontest(@PathVariable("appCode") int appCode) {
+	public List<Double> viewModelJsonConfig(@PathVariable("appCode") int appCode) {
 		//creating a list of all modelJson with specified appCode
 		List<modelJson> temp = repo.findByAppCodeSorted(appCode);
 		//creating an empty list
